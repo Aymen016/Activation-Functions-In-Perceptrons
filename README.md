@@ -33,6 +33,7 @@ The following are some widely used activation functions:
    - **Used for**: Binary classification problems. It is most commonly used in the output layer for binary classification tasks, where the goal is to produce a probability output.
 
 3. **Tanh (Hyperbolic Tangent) Activation Function** 🌐
+   ![image](https://github.com/user-attachments/assets/afa69f58-6942-4777-8aa4-8c193a957de7)
    - **Range**: (-1, 1)
    - **Formula**:  
      \[
@@ -40,7 +41,8 @@ The following are some widely used activation functions:
      \]
    - **Used for**: Hidden layers of neural networks. It is similar to the sigmoid function but has a range of -1 to 1, making it better suited for deeper networks.
 
-4. **ReLU (Rectified Linear Unit) Activation Function** 🔥
+5. **ReLU (Rectified Linear Unit) Activation Function** 🔥
+   ![image](https://github.com/user-attachments/assets/8f7181b3-aed0-4da3-973f-1860e1360e7a)
    - **Range**: [0, +∞)
    - **Formula**:  
      \[
@@ -48,7 +50,8 @@ The following are some widely used activation functions:
      \]
    - **Used for**: Hidden layers of deep networks. ReLU helps mitigate the vanishing gradient problem, enabling more efficient training and faster convergence.
 
-5. **Leaky ReLU Activation Function** 🌊
+7. **Leaky ReLU Activation Function** 🌊
+   ![image](https://github.com/user-attachments/assets/26790748-380a-4882-9d6a-af3c4dfe04b2)
    - **Range**: (-∞, +∞)
    - **Formula**:  
      \[
